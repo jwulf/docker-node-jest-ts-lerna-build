@@ -5,6 +5,7 @@ ENV NODE_VERSION 10.5.0
 WORKDIR build
 
 COPY yarn.lock .
+COPY package.json .
 
 RUN apk update && \
   apk add git curl openssh nano && \
