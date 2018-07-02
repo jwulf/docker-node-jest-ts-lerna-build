@@ -1,5 +1,5 @@
 # Based on 
-FROM node:10.5-alpine
+FROM node:10.5-jessie
 
 ENV NODE_VERSION 10.5.0
 WORKDIR build
