@@ -7,8 +7,8 @@ WORKDIR build
 COPY yarn.lock .
 COPY package.json .
 
-RUN apk update && \
-  apk add git curl openssh nano && \
+RUN apt update && \
+  apt install -y git curl openssh nano && \
   yarn install -g
 
 CMD [ "node" ]
