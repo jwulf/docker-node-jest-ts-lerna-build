@@ -7,8 +7,8 @@ WORKDIR build
 COPY yarn.lock .
 COPY package.json .
 
-RUN apt update && \
-  apt install -y git curl openssh nano && \
-  yarn install -g
+# RUN apt update && \
+#  apt install -y git curl openssh nano && \
+RUN yarn install -g
 
 CMD [ "node" ]
