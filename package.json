@@ -1,0 +1,24 @@
+{
+  "name": "docker-node-jest-ts-lerna-build",
+  "version": "1.0.0",
+  "description": "A Docker image suitable for building and testing node applications with TypeScript, Jest, and Lerna",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwulf/docker-node-jest-ts-lerna-build.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwulf/docker-node-jest-ts-lerna-build/issues"
+  },
+  "homepage": "https://github.com/jwulf/docker-node-jest-ts-lerna-build#readme",
+  "dependencies": {
+    "jest": "^23.2.0",
+    "jest-cli": "^23.2.0",
+    "typescript": "^2.9.2"
+  }
+}
