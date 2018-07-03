@@ -1,5 +1,5 @@
 # Based on 
-FROM node:8.11.3-jessie
+FROM node:8.11.3-stretch
 
 ENV NODE_VERSION 8.11.3
 WORKDIR build
