@@ -1,7 +1,7 @@
 # Based on 
-FROM node:10.5-jessie
+FROM node:8.11.3-jessie
 
-ENV NODE_VERSION 10.5.0
+ENV NODE_VERSION 8.11.3
 WORKDIR build
 
 COPY yarn.lock .
